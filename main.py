@@ -37,4 +37,5 @@ def download_mp4():
         f.write(video.content)
     print('Download Process Finished')
 
-download_mp4()
+if __name__ == '__main__':
+    download_mp4()
